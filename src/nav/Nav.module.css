@@ -2,8 +2,9 @@
     border: 1px solid darkgray;
     width: 300px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     color: white;
+    margin-right: 10%;
 }
 .nav a {
     color: white;

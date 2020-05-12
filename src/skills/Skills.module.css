@@ -13,7 +13,7 @@
 
 }
 .title {
-    background-color: gray;
+    border: 1px solid;
     justify-content: center;
 }
 
