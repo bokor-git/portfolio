@@ -6,4 +6,5 @@
     align-items: center;
     border: 1px solid;
     flex-wrap: wrap;
+    min-width: 288px;
 }

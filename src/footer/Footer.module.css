@@ -16,8 +16,9 @@
     justify-items: center;
 }
 .socialMediaBlock {
-    width: 350px;
-    height: 50px;
+    min-width: 240px;
+    width: 25%;
+    height: 40px;
     border: 1px solid;
     display: flex;
     justify-content: space-between;
@@ -27,8 +28,8 @@
 .icon {
     background-color: lightsteelblue;
     border: 1px solid;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 }
 
 

@@ -1,15 +1,18 @@
 .project {
-    max-width: 400px;
+    min-width: 288px;
+    width: 30%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100%;
+
 }
 
 
 .projectPhoto {
     background-color: dimgray;
     width: 100%;
-    height: 400px;
+   height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -21,9 +24,11 @@
     text-decoration: none;
 }
 .projectName {
+    width: 100%;
     background-color: lightsteelblue;
 }
 .projectDescription{
+    width: 100%;
     background-color: gainsboro;
     display: flex;
     flex-direction: column;

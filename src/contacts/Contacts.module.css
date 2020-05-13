@@ -5,17 +5,21 @@
     justify-content: center;
 }
 
-.contactsContainer{
+.contactsContainer {
     flex-direction: column;
     justify-content: space-around;
+    align-content: center;
 }
+
 .title {
     border: 1px solid;
     display: flex;
     justify-content: center;
     justify-items: center;
 }
+
 .inputBlock {
+    min-width: 288px;
     width: 80%;
     height: 60%;
     border: 1px solid;
@@ -25,8 +29,9 @@
     align-items: center;
 }
 
-.formBlock{
-border: 1px solid darkslategray;
+.formBlock {
+    min-width: 288px;
+    border: 1px solid darkslategray;
     height: 50%;
     width: 40%;
     display: flex;
@@ -34,6 +39,7 @@ border: 1px solid darkslategray;
     justify-content: space-between;
     align-items: center;
 }
+
 .formInput {
     width: 100%;
     height: 15%;
@@ -46,7 +52,7 @@ border: 1px solid darkslategray;
     font-size: large;
 }
 
-.sendButton{
+.sendButton {
     width: 100px;
     height: 30px;
     background-color: silver;

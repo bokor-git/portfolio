@@ -3,23 +3,29 @@
     background-color: aliceblue;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    max-height: 100%;
 }
 
 .projectContainer {
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
 }
 .title {
+    width: 100%;
     display: flex;
     border: 1px solid;
     justify-content: center;
     justify-items: center;
 }
 .projectBlock {
+    max-height: 50%;
     width: 100%;
     border: 1px solid;
     display: flex;
     justify-content: space-around;
     align-items: center;
-
+    flex-wrap: wrap;
 }

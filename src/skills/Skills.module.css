@@ -1,5 +1,6 @@
 
 .skillsBlock {
+    margin: 0px;
     height: 100vh;
     background-color: gainsboro;
     display: flex;
@@ -10,6 +11,7 @@
 
     flex-direction: column;
     justify-content: flex-start;
+    flex-wrap: initial;
 
 }
 .title {

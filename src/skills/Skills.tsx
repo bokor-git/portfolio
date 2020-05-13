@@ -3,8 +3,7 @@ import style from "./Skills.module.css"
 import styleContainer from "../common/styles/Container.module.css"
 import Skill from "./Skill/Skill";
 
-const description = "Lorem ipsum dolor sit amet, consectetur adipisicing elit," +
-    " sed do eiusmod tempor "
+const description = "Lorem ipsum dolor sit amet, consectetur adipisicing "
 
 
 const Skills = () => {
@@ -15,7 +14,6 @@ const Skills = () => {
                 <Skill title="JS" description={description}/>
                 <Skill title="ReactJS" description={description}/>
                 <Skill title="CSS" description={description}/>
-
             </div>
         </div>
     </div>

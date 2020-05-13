@@ -9,9 +9,7 @@ const Project = () => {
         </div>
         <div className={style.projectDescription}>
             <span className={style.projectName}>Project Name</span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dolorem harum quod similique
-                sint! Aut ducimus eaque eius eum expedita, explicabo iusto minus molestias possimus sequi sint
-                sunt suscipit voluptatem.</p>
+            <p>Project description </p>
         </div>
     </div>
 
