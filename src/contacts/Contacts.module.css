@@ -10,6 +10,7 @@
     justify-content: space-around;
 }
 .title {
+    border: 1px solid;
     display: flex;
     justify-content: center;
     justify-items: center;
