@@ -3,6 +3,7 @@
     background-color: darkgrey;
     display: flex;
     justify-content: center;
+    min-width: 360px;
 }
 
 .contactsContainer{

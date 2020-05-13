@@ -5,6 +5,7 @@
     background-color: gainsboro;
     display: flex;
     justify-content: center;
+    min-width: 360px;
 }
 
 .skillsContainer {
