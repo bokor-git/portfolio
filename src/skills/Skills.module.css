@@ -1,7 +1,7 @@
 
 .skillsBlock {
     margin: 0px;
-    height: 100vh;
+    min-height: 100vh;
     background-color: gainsboro;
     display: flex;
     justify-content: center;
