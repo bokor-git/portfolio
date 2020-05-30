@@ -1,12 +1,12 @@
 .nav {
-    border: 1px solid darkgray;
+    border: 1px solid #0075f2;;
     width: 300px;
     display: flex;
     justify-content: space-around;
-    color: white;
+    color:  #0075f2;
     margin-right: 10%;
 }
 .nav a {
-    color: white;
+    color: #0075f2;
     text-decoration: none;
 }
