@@ -1,6 +1,6 @@
 .projectsBlock {
-    min-height: 100vh;
-    background-color: aliceblue;
+    min-height: fit-content;
+    background-color: #e5e5e5;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -14,17 +14,21 @@
     flex-wrap: wrap;
 
 }
+
 .title {
     width: 100%;
+    font-family: 'Poppins', sans-serif;;
     display: flex;
-    border: 1px solid;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #2f323a;
     justify-content: center;
     justify-items: center;
 }
+
 .projectBlock {
     max-height: 50%;
     width: 100%;
-    border: 1px solid;
     display: flex;
     justify-content: space-around;
     align-items: center;
