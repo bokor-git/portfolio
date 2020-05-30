@@ -3,7 +3,7 @@ import style from "./Skills.module.css"
 import styleContainer from "../common/styles/Container.module.css"
 import Skill from "./Skill/Skill";
 
-const description = "Lorem ipsum dolor sit amet, consectetur adipisicing "
+const description = "Lorem ipsum dolor sit amet, consectetur adipisicing, sit amet, consectetur adipisicing, sit amet, consectetur adipisicing "
 
 
 const Skills = () => {
@@ -11,9 +11,16 @@ const Skills = () => {
         <div className={`${styleContainer.container} ${style.skillsContainer}`}>
             <h2 className={style.title}>My skills</h2>
             <div className={style.skills}>
-                <Skill title="JS" description={description}/>
-                <Skill title="ReactJS" description={description}/>
-                <Skill title="CSS" description={description}/>
+                <Skill title="HTML" description={description}
+                       icon={"https://pngimage.net/wp-content/uploads/2018/06/html-icon-png-6.png"}/>
+                <Skill title="CSS" description={description}
+                       icon={"https://upload-icon.s3.us-east-2.amazonaws.com/uploads/icons/png/9939568401548330925-512.png"}/>
+                <Skill title="JS" description={description} icon={"https://img.icons8.com/all/500/javascript.png"}/>
+                <Skill title="ReactJS" description={description}
+                       icon={"https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/react-512.png"}/>
+                <Skill title="Redux" description={description} icon={"https://img.icons8.com/all/500/redux.png"}/>
+                <Skill title="NodeJS" description={description}
+                       icon={"https://cdn.onlinewebfonts.com/svg/img_189697.png"}/>
             </div>
         </div>
     </div>
