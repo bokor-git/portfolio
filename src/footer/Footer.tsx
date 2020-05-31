@@ -1,6 +1,7 @@
 import React from 'react';
-import style from "./Footer.module.css"
+import style from "./Footer.module.scss"
 import styleContainer from "../common/styles/Container.module.css"
+import {SocialIcon} from "../common/components/SocialIcon";
 
 const icons = {
     facebook: "https://www.freepngimg.com/thumb/facebook/62576-like-icons-button-computer-facebook-icon.png",
@@ -20,7 +21,7 @@ const Footer = () => {
                 <SocialIcon icon={icons.linkedin}/>
                 <SocialIcon icon={icons.telegram}/>
             </div>
-            <p>©2020 All rights reserved</p>
+            <p className={style.text}>©2020 All rights reserved</p>
         </div>
     </div>
 }
@@ -28,8 +29,3 @@ const Footer = () => {
 export default Footer
 
 
-export function SocialIcon(props: { icon: string }) {
-    return <div className={style.icon}>
-        <img src={props.icon}/>
-    </div>
-}

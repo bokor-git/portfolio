@@ -1,4 +1,4 @@
-import style from "./Link.module.css";
+import style from "./Link.module.scss";
 import React from "react";
 
 

@@ -1,6 +1,8 @@
+@import "../common/styles/sass/variables";
+
 .header {
     height: 90px;
-    background-color: black;
+    background-color: $mainBlockColor;
     display: flex;
     justify-content: flex-end;
     align-items: center;

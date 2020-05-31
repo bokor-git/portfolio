@@ -1,0 +1,49 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url("../../src/common/fonts/Gilroy-ExtraBold.otf")
+}
+
+@import "../common/styles/sass/variables";
+
+.main {
+  min-height: 100vh;
+  background-color: $mainBlockColor;
+  display: flex;
+  justify-content: center;
+  min-width: 360px;
+
+  .text h1 {
+    margin-left: 10%;
+    font-family: $mainTitleFont;
+    font-style: italic;
+    font-size: 4rem;
+    font-weight: 900;
+    background-image: $backgroundImgGradient;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .photo {
+    width: 300px;
+    height: 400px;
+    background-image: $backgroundImgGradient;
+  }
+
+  .text p {
+    color: $textColor;
+    font-family: $textFont;
+    font-size: 1.5rem;
+    font-weight: 100;
+  }
+
+  .bottom {
+    margin-left: 40%;
+  }
+}
+
+
+
+
+
+
+

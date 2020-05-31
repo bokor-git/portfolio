@@ -1,7 +1,8 @@
 import React from 'react';
-import style from "./Skills.module.css"
+import style from "./Skills.module.scss"
 import styleContainer from "../common/styles/Container.module.css"
 import Skill from "./Skill/Skill";
+import {Line} from "../common/components/Line";
 
 const description = "Lorem ipsum dolor sit amet, consectetur adipisicing, sit amet, consectetur adipisicing, sit amet, consectetur adipisicing "
 
@@ -10,7 +11,7 @@ const Skills = () => {
     return <div className={style.skillsBlock}>
         <div className={`${styleContainer.container} ${style.skillsContainer}`}>
             <h2 className={style.title}>Skills</h2>
-            <div className={style.line}></div>
+            <Line/>
             <div className={style.skills}>
                 <Skill title="HTML" description={description}
                        icon={"https://pngimage.net/wp-content/uploads/2018/06/html-icon-png-6.png"}/>

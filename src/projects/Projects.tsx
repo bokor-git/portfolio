@@ -1,5 +1,5 @@
 import React from 'react';
-import style from "./Projects.module.css"
+import style from "./Projects.module.scss"
 import styleContainer from "../common/styles/Container.module.css"
 import Project from "./project/Project";
 import socialImg from "./../common/img/social-network.png"

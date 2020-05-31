@@ -1,5 +1,5 @@
 import React from 'react';
-import style from "./Project.module.css"
+import style from "./Project.module.scss"
 import styleContainer from "./../../common/styles/Container.module.css"
 import {CheckLink} from "../../common/components/CheckLink";
 
@@ -14,8 +14,9 @@ const Project = (props: ProjectPropsType) => {
         <div className={style.projectPhoto} style={{backgroundImage: `url(${props.img})`}}>
             <CheckLink text={"Check Project"}/>
         </div>
+
         <div className={style.projectDescription}>
-            <h4>{props.name}</h4>
+            <h4 className={style.projectTitle}>{props.name}</h4>
             <p>{props.description}</p>
         </div>
     </div>

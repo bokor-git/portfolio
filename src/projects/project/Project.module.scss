@@ -1,0 +1,83 @@
+@import "../../common/styles/sass/variables";
+
+
+
+.project {
+    margin: 10px;
+    min-width: 300px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    border-radius: 20px;
+    position: relative;
+    .projectPhoto {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        width: 100%;
+        height: 450px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-size: cover;
+
+    }
+
+    @media screen and (max-width: 1200px ){
+        .projectPhoto {
+            margin-top: 5px;
+            min-width: 288px;
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 200px;
+            background-color: #eeeeee;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+    }
+
+    .projectDescription {
+        background-color: #eeeeee;
+        color: #6f6f6f;;
+        font-family: $textFont;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+
+        .projectTitle {
+            color: #2f323a;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin: 10px;
+            position: relative;
+
+        }
+        .projectDescription p {
+            font: 400 14px/1.8 $textFont;
+            p-size: 1rem;
+            --p-weight: 400;
+            color: #8e8e8e;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
