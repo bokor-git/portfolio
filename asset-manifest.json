@@ -1,26 +1,27 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.78f2c4c5.chunk.css",
-    "main.js": "/portfolio/static/js/main.53e096ff.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.53e096ff.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.c1af32a8.chunk.css",
+    "main.js": "/portfolio/static/js/main.f864fae7.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.f864fae7.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.075c0788.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.075c0788.js.map",
-    "static/js/2.64623330.chunk.js": "/portfolio/static/js/2.64623330.chunk.js",
-    "static/js/2.64623330.chunk.js.map": "/portfolio/static/js/2.64623330.chunk.js.map",
+    "static/js/2.435d0597.chunk.js": "/portfolio/static/js/2.435d0597.chunk.js",
+    "static/js/2.435d0597.chunk.js.map": "/portfolio/static/js/2.435d0597.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.e1a91f0e22eaf0e577fa5b78fdf28f2c.js": "/portfolio/precache-manifest.e1a91f0e22eaf0e577fa5b78fdf28f2c.js",
+    "precache-manifest.49232e942e09a426145e49a64d2ac4f9.js": "/portfolio/precache-manifest.49232e942e09a426145e49a64d2ac4f9.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.78f2c4c5.chunk.css.map": "/portfolio/static/css/main.78f2c4c5.chunk.css.map",
-    "static/js/2.64623330.chunk.js.LICENSE.txt": "/portfolio/static/js/2.64623330.chunk.js.LICENSE.txt",
+    "static/css/main.c1af32a8.chunk.css.map": "/portfolio/static/css/main.c1af32a8.chunk.css.map",
+    "static/js/2.435d0597.chunk.js.LICENSE.txt": "/portfolio/static/js/2.435d0597.chunk.js.LICENSE.txt",
+    "static/media/Main.module.scss": "/portfolio/static/media/Gilroy-ExtraBold.0f6e082f.otf",
     "static/media/counter.png": "/portfolio/static/media/counter.5f02ff61.png",
-    "static/media/messenger.png": "/portfolio/static/media/messenger.673cbc79.png",
-    "static/media/social-network.png": "/portfolio/static/media/social-network.b9887307.png",
+    "static/media/messenger.png": "/portfolio/static/media/messenger.a31b9e88.png",
+    "static/media/social-network.png": "/portfolio/static/media/social-network.6deab98c.png",
     "static/media/todolist.png": "/portfolio/static/media/todolist.650d1708.png"
   },
   "entrypoints": [
     "static/js/runtime-main.075c0788.js",
-    "static/js/2.64623330.chunk.js",
-    "static/css/main.78f2c4c5.chunk.css",
-    "static/js/main.53e096ff.chunk.js"
+    "static/js/2.435d0597.chunk.js",
+    "static/css/main.c1af32a8.chunk.css",
+    "static/js/main.f864fae7.chunk.js"
   ]
 }
