@@ -8,7 +8,7 @@
 }
 
 .footerBlock p {
-    font: 400 14px/1.8 'Poppins', sans-serif;
+    font-family:'Poppins', sans-serif;
     size: 1rem;
     --p-weight: 400;
     color: #8e8e8e;

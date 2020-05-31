@@ -1,5 +1,7 @@
 import React from 'react';
 import style from "./Project.module.css"
+import styleContainer from "./../../common/styles/Container.module.css"
+import {CheckLink} from "../../common/components/CheckLink";
 
 type ProjectPropsType = {
     name: string
@@ -8,9 +10,9 @@ type ProjectPropsType = {
 }
 
 const Project = (props: ProjectPropsType) => {
-    return <div className={style.project}>
+    return <div className={`${styleContainer.container} ${style.project}`}>
         <div className={style.projectPhoto} style={{backgroundImage: `url(${props.img})`}}>
-            <a className={style.checkProject} href="">Check project</a>
+            <CheckLink text={"Check Project"}/>
         </div>
         <div className={style.projectDescription}>
             <h4>{props.name}</h4>

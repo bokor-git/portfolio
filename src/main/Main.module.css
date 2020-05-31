@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "Gilroy";
+    src: url("../../src/common/fonts/Gilroy-ExtraBold.otf")
+}
 
 .main {
     min-height: 100vh;
@@ -9,7 +13,8 @@
 }
 
 .text h1 {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Gilroy", sans-serif;
+    font-style: italic;
     font-size: 4rem;
     font-weight: 900;
     width: 300px;
@@ -17,13 +22,14 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
 .photo {
     width: 300px;
     height: 400px;
     background-color: #524f66;
 }
 
-.text p{
+.text p {
     color: #8e8e8e;
     font-family: 'Poppins', sans-serif;
     font-size: 2rem;

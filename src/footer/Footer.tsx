@@ -20,7 +20,7 @@ const Footer = () => {
                 <SocialIcon icon={icons.linkedin}/>
                 <SocialIcon icon={icons.telegram}/>
             </div>
-            <div><p>©2020 All rights reserved</p></div>
+            <p>©2020 All rights reserved</p>
         </div>
     </div>
 }

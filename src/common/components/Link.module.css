@@ -1,0 +1,15 @@
+.link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    width: 163px;
+    height: 44px;
+    color: #f5f5f5;
+    border: 1px solid;
+    text-decoration: none;
+    background-color: #0075f2;
+    font-weight: 700;
+}
