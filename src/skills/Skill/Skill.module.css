@@ -9,6 +9,7 @@
 }
 
 .icon img {
+    border-radius: 8px;
     width: 100px;
     height: 100px;
     background-image: linear-gradient(45deg, #26ffe6 15%, #0075f2 65%);
@@ -27,6 +28,7 @@
 }
 
 .skill p {
+    font: 400 14px/1.8 'Poppins', sans-serif;
     p-size: 1rem;
     --p-weight: 400;
     color: #8e8e8e;

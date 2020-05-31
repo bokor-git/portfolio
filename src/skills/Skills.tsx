@@ -9,7 +9,8 @@ const description = "Lorem ipsum dolor sit amet, consectetur adipisicing, sit am
 const Skills = () => {
     return <div className={style.skillsBlock}>
         <div className={`${styleContainer.container} ${style.skillsContainer}`}>
-            <h2 className={style.title}>My skills</h2>
+            <h2 className={style.title}>Skills</h2>
+            <div className={style.line}></div>
             <div className={style.skills}>
                 <Skill title="HTML" description={description}
                        icon={"https://pngimage.net/wp-content/uploads/2018/06/html-icon-png-6.png"}/>
