@@ -1,46 +1,39 @@
-
 @import "../common/styles/sass/variables";
+@import "../common/styles/sass/mixins";
+
 .footerBlock {
-    max-height: fit-content;
-    min-height: 25vh;
-    background-color: $footerBlockColor;
-    display: flex;
-    justify-content: center;
-    min-width: 360px;
-    .footerContainer {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        .title {
-            margin: 20px;
-            display: flex;
-            justify-content: center;
-            justify-items: center;
-            font-family: $textFont;
-            font-size: 1.5rem;
-            font-weight: 900;
-            width: 300px;
-            color: #f5f5f5;
-        }
-        .socialMediaBlock {
-            padding: 4px;
-            min-width: 240px;
-            width: 25%;
-            height: 40px;
-            display: flex;
-            justify-content: space-between;
-            border-radius: 8px;
-        }
-        .text {
-            font-family:$textFont;
-            size: 1rem;
-            --p-weight: 400;
-            color: $textColor;
-        }
+  height: fit-content;
+  background-color: $footerBlockColor;
+  @include flex(center, center, center);
+  min-width: 360px;
+
+  .footerContainer {
+    width: 100%;
+    @include flex(column, center, center);
+    flex-wrap: wrap;
+
+    .title {
+      margin: 20px;
+      display: flex;
+      justify-content: center;
+      justify-items: center;
+      @include text($textFont, 1.5rem, 900, #f5f5f5);
+      width: 300px;
     }
+
+    .socialMediaBlock {
+      padding: 4px;
+      min-width: 240px;
+      width: 25%;
+      height: 40px;
+      @include flex(row, space-between, default);
+      border-radius: 8px;
+    }
+
+    .text {
+      @include text($textFont, 1rem, 400, $textColor);
+    }
+  }
 }
 
 

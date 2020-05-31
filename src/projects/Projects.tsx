@@ -6,6 +6,7 @@ import socialImg from "./../common/img/social-network.png"
 import messengerImg from "./../common/img/messenger.png"
 import todolistImg from "./../common/img/todolist.png"
 import counterImg from "./../common/img/counter.png"
+import {Line} from "../common/components/Line";
 
 
 const socialNetwork = {
@@ -38,7 +39,7 @@ const Projects = () => {
     return <div className={style.projectsBlock}>
         <div className={`${styleContainer.container} ${style.projectContainer}`}>
             <h2 className={style.title}>Projects</h2>
-            <div className={style.line}></div>
+            <Line/>
             <div className={style.projectBlock}>
                 <Project name={socialNetwork.name} description={socialNetwork.description} img={socialImg}/>
                 <Project name={todoList.name} description={todoList.description} img={todolistImg}/>

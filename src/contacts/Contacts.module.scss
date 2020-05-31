@@ -1,83 +1,53 @@
 @import "../common/styles/sass/variables";
-
+@import "../common/styles/sass/mixins";
 .contactsBlock {
     height: 75vh;
     background-color: $contactsBlockColor;
-    display: flex;
-    justify-content: center;
+    @include flex(row,center,default);
     min-width: 360px;
     .contactsContainer {
+        @include flex(column,space-around,center);
         flex-wrap: initial;
-        flex-direction: column;
-        justify-content: space-around;
-        align-content: center;
         max-height: fit-content;
-
         .title {
             width: 100%;
-            font-family: $textFont;
-            display: flex;
-            font-size: 2rem;
-            font-weight: 600;
-            color: $titleColor;
-            justify-content: center;
-            justify-items: center;
-        }
-        .line {
-            background: $secondaryGradientColor;
-            width: 80px;
-            height: 1px;
-            margin: 10px auto;
+            @include text($textFont,2rem,600,$titleColor);
+            @include flex(row,center,center);
         }
         .inputBlock {
-
             min-width: 288px;
             width: 80%;
             height: 60%;
             border: 4px solid #524f66;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+            @include flex(column,center,center);
             .formBlock {
                 min-width: 288px;
                 height: 50%;
                 width: 40%;
-                display: flex;
-                flex-direction: column;
-                justify-content: space-between;
-                align-items: center;
-
+                @include flex(column,space-between,center);
                 .formInput {
                     width: 100%;
                     height: 15%;
-                    font-size: 18px;
+                    @include text($textFont,0.8rem,400,#8e8e8e);
                 }
-
                 .formMessage {
                     width: 100%;
                     height: 50%;
-                    font-size: 18px;
+                    @include text($textFont,0.8rem,400,#8e8e8e);
                     resize: none
                 }
             }
         }
-
         .sendButton {
-            font-size: 20px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @include text($textFont,20px,700,#f5f5f5);
+            @include flex(row, center, center);
             border-radius: 5px;
-            font-family: $textFont;
             cursor: pointer;
             width: 163px;
             height: 44px;
-            color: #f5f5f5;
             border: 1px solid;
             text-decoration: none;
             background-color: $secondaryGradientColor;
-            font-weight: 700;
         }
     }
 }
