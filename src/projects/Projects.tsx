@@ -7,6 +7,10 @@ import messengerImg from "./../common/img/messenger.png"
 import todolistImg from "./../common/img/todolist.png"
 import counterImg from "./../common/img/counter.png"
 import {Line} from "../common/components/Line";
+import facebookIcon from "../common/icons/facebook.png"
+import instagramIcon from "../common/icons/instagram.png"
+import linkindlIcon from "../common/icons/linkindl.png"
+import viberIcon from "../common/icons/viber.png"
 
 
 const socialNetwork = {

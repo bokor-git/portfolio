@@ -3,12 +3,19 @@ import style from "./Footer.module.scss"
 import styleContainer from "../common/styles/Container.module.css"
 import {SocialIcon} from "../common/components/SocialIcon";
 import {Line} from "../common/components/Line";
+import facebookIcon from "../common/icons/facebook.png"
+import instagramIcon from "../common/icons/instagram.png"
+import linkindlIcon from "../common/icons/linkindl.png"
+import viberIcon from "../common/icons/viber.png"
+import telegram from "../common/icons/telegram.png"
+
 
 const icons = {
-    facebook: "https://www.freepngimg.com/thumb/facebook/62576-like-icons-button-computer-facebook-icon.png",
-    instagram: "https://www.magnumandco.com.au/wp-content/uploads/2016/08/Instagram-logo-250x250.png",
-    linkedin: "https://i.ya-webdesign.com/images/official-linkedin-icon-png-4.png",
-    telegram: "https://pluspng.com/img-png/telegram-logo-png-png-file-svg-980.png"
+    facebook: facebookIcon,
+    instagram: instagramIcon,
+    linkedin: linkindlIcon,
+    telegram: telegram,
+    viber:viberIcon
 }
 
 
@@ -22,6 +29,7 @@ const Footer = () => {
                 <SocialIcon icon={icons.instagram}/>
                 <SocialIcon icon={icons.linkedin}/>
                 <SocialIcon icon={icons.telegram}/>
+                <SocialIcon icon={icons.viber}/>
             </div>
             <p className={style.text}>©2020 All rights reserved</p>
         </div>
