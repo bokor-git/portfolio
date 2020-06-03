@@ -5,11 +5,14 @@
     background-color: $contactsBlockColor;
     @include flex(row,center,default);
     min-width: 360px;
+
     .contactsContainer {
+        margin-top: 30px;
         @include flex(column,space-around,center);
         flex-wrap: initial;
         max-height: fit-content;
         .title {
+
             width: 100%;
             @include text($textFont,2rem,600,$titleColor);
             @include flex(row,center,center);
@@ -19,6 +22,7 @@
             width: 80%;
             height: 60%;
             border: 4px solid #524f66;
+            margin-bottom: 40px;
             @include flex(column,center,center);
             .formBlock {
                 min-width: 288px;
@@ -48,6 +52,7 @@
             border: 1px solid;
             text-decoration: none;
             background-color: $secondaryGradientColor;
+            margin-bottom: 40px;
         }
     }
 }

@@ -3,7 +3,6 @@
 @import "../common/styles/sass/mixins";
 
 .skillsBlock {
-    margin: 0;
     min-height: fit-content;
     background-color: $footerBlockColor;
     display: flex;
@@ -13,6 +12,8 @@
         flex-direction: column;
         justify-content: flex-start;
         flex-wrap: initial;
+        margin-bottom: 30px;
+        margin-top: 30px;
         .title {
             width: 100%;
             display: flex;

@@ -15,6 +15,8 @@
     justify-content: flex-start;
     flex-wrap: wrap;
     position: relative;
+    margin-bottom: 30px;
+    margin-top: 30px;
 
     .title {
       @include text($textFont, 2rem, 600, #2f323a);
