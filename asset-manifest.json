@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c82141dc.chunk.css",
+    "main.css": "/portfolio/static/css/main.217dd6e5.chunk.css",
     "main.js": "/portfolio/static/js/main.36545bcb.chunk.js",
     "main.js.map": "/portfolio/static/js/main.36545bcb.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.075c0788.js",
@@ -8,9 +8,9 @@
     "static/js/2.d5456394.chunk.js": "/portfolio/static/js/2.d5456394.chunk.js",
     "static/js/2.d5456394.chunk.js.map": "/portfolio/static/js/2.d5456394.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.832e82d30d50756e061dc8f611836314.js": "/portfolio/precache-manifest.832e82d30d50756e061dc8f611836314.js",
+    "precache-manifest.0eaa43e02c1ccfa638ee1fc113a6b0ab.js": "/portfolio/precache-manifest.0eaa43e02c1ccfa638ee1fc113a6b0ab.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.c82141dc.chunk.css.map": "/portfolio/static/css/main.c82141dc.chunk.css.map",
+    "static/css/main.217dd6e5.chunk.css.map": "/portfolio/static/css/main.217dd6e5.chunk.css.map",
     "static/js/2.d5456394.chunk.js.LICENSE.txt": "/portfolio/static/js/2.d5456394.chunk.js.LICENSE.txt",
     "static/media/Main.module.scss": "/portfolio/static/media/Gilroy-ExtraBold.0f6e082f.otf",
     "static/media/counter.png": "/portfolio/static/media/counter.5f02ff61.png",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.075c0788.js",
     "static/js/2.d5456394.chunk.js",
-    "static/css/main.c82141dc.chunk.css",
+    "static/css/main.217dd6e5.chunk.css",
     "static/js/main.36545bcb.chunk.js"
   ]
 }
