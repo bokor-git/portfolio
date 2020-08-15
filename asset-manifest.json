@@ -1,30 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ba0b9c31.chunk.css",
-    "main.js": "/portfolio/static/js/main.36545bcb.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.36545bcb.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.b6d072c3.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b6d072c3.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.075c0788.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.075c0788.js.map",
-    "static/js/2.d5456394.chunk.js": "/portfolio/static/js/2.d5456394.chunk.js",
-    "static/js/2.d5456394.chunk.js.map": "/portfolio/static/js/2.d5456394.chunk.js.map",
+    "static/js/2.3eabec0f.chunk.js": "/portfolio/static/js/2.3eabec0f.chunk.js",
+    "static/js/2.3eabec0f.chunk.js.map": "/portfolio/static/js/2.3eabec0f.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.bcd4a8e19a11153699422757570c8b19.js": "/portfolio/precache-manifest.bcd4a8e19a11153699422757570c8b19.js",
+    "precache-manifest.9f25ff05e3cc8377e6c1550591a9c564.js": "/portfolio/precache-manifest.9f25ff05e3cc8377e6c1550591a9c564.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.ba0b9c31.chunk.css.map": "/portfolio/static/css/main.ba0b9c31.chunk.css.map",
-    "static/js/2.d5456394.chunk.js.LICENSE.txt": "/portfolio/static/js/2.d5456394.chunk.js.LICENSE.txt",
-    "static/media/Main.module.scss": "/portfolio/static/media/Gilroy-ExtraBold.0f6e082f.otf",
-    "static/media/counter.png": "/portfolio/static/media/counter.5f02ff61.png",
-    "static/media/instagram.png": "/portfolio/static/media/instagram.d78c4876.png",
-    "static/media/messenger.png": "/portfolio/static/media/messenger.a31b9e88.png",
-    "static/media/social-network.png": "/portfolio/static/media/social-network.6deab98c.png",
-    "static/media/telegram.png": "/portfolio/static/media/telegram.2c3aa24e.png",
-    "static/media/todolist.png": "/portfolio/static/media/todolist.650d1708.png",
-    "static/media/viber.png": "/portfolio/static/media/viber.a4d3edec.png"
+    "static/js/2.3eabec0f.chunk.js.LICENSE.txt": "/portfolio/static/js/2.3eabec0f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.075c0788.js",
-    "static/js/2.d5456394.chunk.js",
-    "static/css/main.ba0b9c31.chunk.css",
-    "static/js/main.36545bcb.chunk.js"
+    "static/js/2.3eabec0f.chunk.js",
+    "static/js/main.b6d072c3.chunk.js"
   ]
 }
