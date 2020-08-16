@@ -26,10 +26,11 @@
             @include flex(column,center,center);
             .formBlock {
                 min-width: 288px;
-                height: 50%;
+                height: 80%;
                 width: 40%;
                 @include flex(column,space-between,center);
                 .formInput {
+                    margin: 10px;
                     width: 100%;
                     height: 15%;
                     @include text($textFont,0.8rem,400,#8e8e8e);
